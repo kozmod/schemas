@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T12:59:56.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="fx6PqilyEGyBbDoZ8uGU" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-15T13:00:19.244Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="m1J4dlMwWXgDp62jPy5z" version="20.1.1" type="github">
   <diagram id="_qY6aH81968T1rHTuvFc" name="Page-1">
     <mxGraphModel dx="1298" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-99" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="830" width="100" height="220" as="geometry" />
+        </mxCell>
         <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="830" width="620" height="220" as="geometry" />
         </mxCell>
@@ -142,7 +145,7 @@
             <mxPoint x="80" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-68" value="version&lt;br&gt;1 byte" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-68" value="version&lt;br&gt;2 byte" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="860" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-69" value="" style="endArrow=none;html=1;rounded=0;exitX=0.059;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
@@ -151,7 +154,7 @@
             <mxPoint x="120" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-70" value="records&lt;br&gt;&amp;nbsp;quantity&lt;br&gt;1 byte" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-70" value="records&lt;br&gt;&amp;nbsp;quantity&lt;br&gt;2 byte" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="60" y="980" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-77" value="N Record&lt;br&gt;1. Header&lt;br&gt;2. Payload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -175,7 +178,7 @@
             <mxPoint x="510" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-90" value="Header&lt;br&gt;1. Type - 2 byte&lt;br&gt;2. Len - 4/8 byte" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-90" value="Header&lt;br&gt;1. Type - 4 byte&lt;br&gt;2. Len - 4 byte" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="140" y="910" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-91" value="Payload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -195,9 +198,6 @@
         </mxCell>
         <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-98" value="Payload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="385" y="265" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-99" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="830" width="100" height="220" as="geometry" />
         </mxCell>
         <mxCell id="ke3IQF4Mm_EFFkzlHo-Y-100" value="2." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="25" y="785" width="30" height="30" as="geometry" />
